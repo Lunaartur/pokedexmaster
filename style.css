@@ -19,6 +19,10 @@ body {
     margin: 0;
 }
 
+.busca{
+    size: 1em;
+}
+
 .pokemon-card-container {
     border: 5px solid #fff;
     background: var(--cor-fundo-2);
