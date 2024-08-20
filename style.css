@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo-2: #111;
+    --cor-search: #111;
+}
+
+body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.pokemon-card-container {
+    border: 5px solid #fff;
+    background: var(--cor-fundo-2);
+    width: 90%;
+    max-width: 470px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+    color: #fff;
+    padding: 20px 35px;
+    text-align: center;
+    margin-top: 1em; /* Adiciona espaço acima do container, se necessário */
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Espaço entre a caixa de pesquisa e a carta */
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: white;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    border: 5px solid black;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.pokemon-card {
+    background: var(--cor-fundo-2);
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    border: 5px solid black;
+}
+
+.background {
+    text-align: center;
+    background: var(--cor-fundo-2);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: 5px solid #111;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.content {
+    background: var(--cor-fundo-2);
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 30px;
+}
+
+
+.pokemon-name {
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.pokemon-type {
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+
+.pokemon-logo {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.pokemon-stats > p {
+    letter-spacing: 1px;
+}
